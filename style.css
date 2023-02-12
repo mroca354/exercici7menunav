@@ -8,7 +8,11 @@
     float= és una propietat de posicionament en CSS, és a dir, com s'ubiquen els elements dins d'un document HTML. */
 *{margin:0;padding:0;box-sizing:border-box;font-size:0;}
             
-nav a{
+nav 
+    lu{
+        display: none;
+    }
+    a{
     text-decoration:none;
     color:inherit;
     font-size:14px;
